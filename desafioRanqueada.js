@@ -7,7 +7,7 @@ function subtrair(vitorias, derrotas) {
     return vitorias - derrotas;
   }
   
-  let resultado = subtrair(296, 192); 
+  let resultado = subtrair(vitorias, derrotas); 
 
   if (resultado <= 10) {
     console.log("O Herói chamado " + nomeDoHeroi + " está no RANKING FERRO")
