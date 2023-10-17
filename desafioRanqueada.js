@@ -1,7 +1,7 @@
 let nomeDoHeroi = "Lillnard - O caça ratos"
 let vitorias = 296
 let derrotas = 192
-let saldo = "vitorias - derrotas"
+let saldo = vitorias - derrotas
 
 function subtrair(vitorias, derrotas) {
     return vitorias - derrotas;
@@ -22,5 +22,5 @@ function subtrair(vitorias, derrotas) {
     } else if (resultado >= 91 && resultado <= 100) {
         console.log("O Herói chamado " + nomeDoHeroi + " está no RANKING LENDÁRIO")
     } else {
-        console.log("Ranking máximo alcançado... Parabéns!!! O Herói chamado " + nomeDoHeroi + " , possui um saldo de" + saldo " e está no RANKING IMORTAL")
+        console.log("Ranking máximo alcançado... Parabéns!!! O Herói chamado " + nomeDoHeroi + ", possui um saldo de " + saldo + " vitórias e está no RANKING IMORTAL")
     }
